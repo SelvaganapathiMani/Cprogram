@@ -10,14 +10,9 @@ int main()
      
     for(i=1;i<=k;i++)
     {
-        sum=sum+i;
+        sum=sum+a[i];
     }
-     for(i=1;i<=n;i++)
-     {
-         if(a[i]==sum)
-         {
+    
               printf("%d",sum);
-         }
-     }
     return 0;
 }
